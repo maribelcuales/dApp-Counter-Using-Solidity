@@ -23,4 +23,12 @@ npm install web3
 npm install -g solc  
 ```
 
-2. Write first Smart Contract in `Counter.sol`.
+2. Create the following files: `counter.html`, `counter.js`, `counter.sol`
+
+3. Write the first Smart Contract in `Counter.sol`.
+
+4. Compile code using solc. This will create the `build` folder.
+```
+solcjs --bin --abi -o ./build counter.sol
+```
+
