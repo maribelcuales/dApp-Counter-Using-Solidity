@@ -18,8 +18,8 @@ This is a basic counter **dApp** which will have an increment and decrement func
 
 1. `npm` install **Ganache**, **Web3.js**, and **Solcjs**
 ```gitbash  
-npm install ganache-cli 
-npm install web3 
+npm install -g ganache-cli 
+npm install -g web3 
 npm install -g solc  
 ```
 
@@ -31,4 +31,12 @@ npm install -g solc
 ```
 solcjs --bin --abi -o ./build counter.sol
 ```
+
+5. Start Ganache with this command: 
+```
+  ganache-cli
+```
+
+6. Write script in `Deploy.js` to deploy our local server.  
+
 
