@@ -39,4 +39,9 @@ solcjs --bin --abi -o ./build counter.sol
 
 6. Write script in `Deploy.js` to deploy our local server.  
 
+7. Command to deploy: 
+```
+node counter.js
+```
+
 
